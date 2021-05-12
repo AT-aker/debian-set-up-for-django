@@ -1,4 +1,4 @@
-# Debian Server Set Up for Django Instruction
+# Debian/Ubuntu Server Set Up for Django Instruction
 
 In this guide we will set up clean Debian server for Python and Django projects. We will configure secure SSH connection, install from Debian repositories and from sources all needed packages and ware it together for working Debian Django server.
 
@@ -17,7 +17,7 @@ Press 'q' for exit to terminal.
 
 ## Create user, setup SSH
 
-Connect through SSH to remote Debian server and update repositories and install some initial needed packages:
+Connect through SSH to remote server and update repositories and install some initial needed packages:
 
 ```
 sudo apt-get update ; \

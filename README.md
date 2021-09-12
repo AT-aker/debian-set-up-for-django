@@ -66,15 +66,15 @@ mkdir ~/code
 Build from source python 3.7, install with prefix to ~/.python folder:
 
 ```
-wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz ; \
-tar xvf Python-3.7.* ; \
-cd Python-3.7.3 ; \
+wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz ; \
+tar xvf Python-3.9.* ; \
+cd Python-3.9.7 ; \
 mkdir ~/.python ; \
-./configure --enable-optimizations --prefix=/home/www/.python ; \
-make -j8 ; \
+./configure --enable-optimizations --prefix=/home/antserver/.python ; \
+make -j4 ; \
 sudo make altinstall
 ```
-
+Make -j(nomber = core*2)
 Now python3.7 in `/home/www/.python/bin/python3.7`. Update pip:
 
 ```
